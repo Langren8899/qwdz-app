@@ -1,0 +1,18 @@
+<!--pages/classic/classic.wxml-->
+<view class="main">
+	<view class="banner">
+		<image src="{{imageUrl}}" mode="aspectFill"></image>
+	</view>
+	<view class="mcdesc">
+		<view class="main-desc">
+			<view class="catinfo">
+				<image src="{{list[0].url}}" class="catinfo-thumb" mode="aspectFill"></image>
+			</view>
+			<view class="paragraph">{{list[0].value}}</view>
+			<view class="catinfo">
+				<image src="{{list[1].url}}" class="catinfo-thumb" mode="aspectFill"></image>
+			</view>
+			<view class="paragraph">{{list[1].value}}</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,35 @@
+/* pages/classic/classic.wxss */
+.main {
+  margin-bottom: 30px;
+  font-family: "Ilelvetica Neue", "Iliragino Sans GB", "Microsoft YaHei", "\9ED1\4F53", Arial, sans-serif;
+  font-size: 32rpx;
+  color: #888;
+}
+
+.banner image {
+  width: 100%;
+  height: 360rpx;
+}
+
+.mcdesc {
+  clear: both;
+  width: 94%;
+  margin: auto;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-height: 45rpx;
+}
+
+.main-desc {
+  width: 98%;
+  margin: 20rpx auto;
+}
+
+.paragragh {
+  text-indent: 50rpx;
+}
+
+.catinfo-thumb {
+  width: 100%;
+  height: 360rpx;
+}

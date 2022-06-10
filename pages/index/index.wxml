@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view class="huandeng">
+	<swiper indicator-dots="true" autoplay="true" interval="3000">
+		<block wx:for="{{imgUrls}}" wx:key="key">
+			<swiper-item>
+				<image src="{{item}}"></image>
+			</swiper-item>
+		</block>
+	</swiper>
+</view>
+<view class="index-nav">
+	<navigator url="/pages/company/company">
+		<view>
+			<image src="../../image/n1.png"></image>
+			<text>公司简介</text>
+		</view>
+	</navigator>
+	<navigator url="/pages/service/service">
+		<view>
+			<image src="../../image/n2.png"></image>
+			<text>产品服务</text>
+		</view>
+	</navigator>
+	<navigator url="/pages/classic/classic">
+		<view>
+			<image src="../../image/n3.png"></image>
+			<text>典型案例</text>
+		</view>
+	</navigator>
+	<navigator url="/pages/dynamic/dynamic">
+		<view>
+			<image src="../../image/n4.png"></image>
+			<text>公司动态</text>
+		</view>
+	</navigator>
+	<navigator url="/pages/cooperation/cooperation">
+		<view>
+			<image src="../../image/n5.png"></image>
+			<text>合作共赢</text>
+		</view>
+	</navigator>
+	<navigator url="/pages/newest/newest">
+		<view>
+			<image src="../../image/n6.png"></image>
+			<text>最新产品</text>
+		</view>
+	</navigator>
+</view>
+<view class="al">
+	<image src="/image/b3.jpg"></image>
+</view>
+<view class="al">
+	<image src="/image/b2.jpg"></image>
+</view>

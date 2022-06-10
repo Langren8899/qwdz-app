@@ -1,0 +1,24 @@
+/* pages/products/products.wxss */
+.good-box {
+  text-align: center;
+  color: #454552;
+  border-bottom: 30rpx solid #ededed;
+}
+
+.goods-thumb {
+  width: 100%;
+  height: 390rpx;
+}
+
+.goods-detail {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-bottom: 1rpx solid #ededed;
+  text-align: center;
+  color: #c7c7c7;
+}
+
+.goods-content {
+  padding: 40rpx;
+}

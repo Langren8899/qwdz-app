@@ -1,0 +1,39 @@
+/**index.wxss**/
+.huandeng image {
+  width: 100%;
+  height: 450rpx;
+}
+
+.index-nav {
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  margin-top: 10rpx;
+  flex-wrap: wrap;
+}
+
+.index-nav view {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  width: 250rpx;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.index-nav image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.index-nav text {
+  font-size: 12px;
+}
+
+.al image {
+  width: 750rpx;
+  height: 300rpx;
+}

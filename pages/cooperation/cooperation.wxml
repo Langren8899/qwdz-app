@@ -1,0 +1,11 @@
+<!--pages/cooperation/cooperation.wxml-->
+<view class="main">
+	<view class="mcdesc">
+		<view class="main-desc" wx:for="{{list}}">
+			<view class="paragraph">{{item.content}}</view>
+			<view class="catinfo">
+				<image src="{{item.url}}" class="catinfo-thumb" mode="aspectFill"></image>
+			</view>
+		</view>
+	</view>
+</view>

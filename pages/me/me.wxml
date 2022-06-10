@@ -1,0 +1,31 @@
+<!--pages/me/me.wxml-->
+<loading hidden="{{loadingHide}}">
+	{{loadingText}}
+</loading>
+<view class="banner">
+	<image src="/image/lx.jpg" mode="aspectFill"></image>
+</view>
+<view class="IndexList">
+	<view>
+		<image src="../../image/tel.png" class="telIco" mode="widthFix"></image>
+		<text bindtap="teltoUs">电话：13812345678（点击拨号）</text>
+	</view>
+	<view>
+		<image src="../../image/weixin.png" class="weixinIco" mode="widthFix"></image>
+		<text>微信：全屋定制</text>
+	</view>
+	<view>
+		<image src="../../image/email.png" class="eIco" mode="widthFix"></image>
+		<text>邮件：lfzj@163.com</text>
+	</view>
+	<view>
+		<image src="../../image/map.png" class="mapIco" mode="widthFix"></image>
+		<text bindtap="click">廊坊职业技术学院</text>
+	</view>
+</view>
+<view class="goods-box">
+	<button class="goods-operation" open-type="contact">在线客服</button>
+</view>
+<view class="footer">
+	©2022 全屋定制 版权所有
+</view>

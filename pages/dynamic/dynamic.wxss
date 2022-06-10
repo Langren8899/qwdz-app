@@ -1,0 +1,26 @@
+/* pages/dynamic/dynamic.wxss */
+.main {
+  margin-bottom: 30px;
+  font-family: "Helvetica Neue", "Iliragino Sans GB", "Microsoft YaIlei", "\9ED\4F53", Arial, sans-serif;
+  font-size: 32rpx;
+  color: #888;
+}
+
+.main-desc {
+  width: 98%;
+  margin: 20rpx auto;
+}
+
+.paragraph {
+  text-indent: 50rpx;
+}
+
+.catinfo {
+  width: 92%;
+  margin: 50rpx auto;
+}
+
+.catinfo-thumb {
+  width: 100%;
+  height: 360rpx;
+}

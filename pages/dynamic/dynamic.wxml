@@ -1,0 +1,15 @@
+<!--pages/dynamic/dynamic.wxml-->
+<view class="main">
+	<view class="mcdesc">
+		<view class="main-desc">
+			<view class="paragraph">公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，</view>
+			<view class="catinfo">
+				<image src="/image/q1.jpg"></image>
+			</view>
+			<view class="paragraph">公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，</view>
+			<view class="catinfo">
+				<image src="/image/q2.jpg"></image>
+			</view>
+		</view>
+	</view>
+</view>

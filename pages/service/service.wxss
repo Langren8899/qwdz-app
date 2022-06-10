@@ -1,0 +1,32 @@
+/* pages/service/service.wxss */
+.main {
+  font-size: 30rpx;
+  color: #888;
+}
+
+.goods-box {
+  position: relative;
+  text-align: center;
+  color: #454552;
+  border-bottom: 30rpx solid #ededed;
+}
+
+.goods-box.goods-thumb {
+  width: 100%;
+  height: 390rpx;
+}
+
+.goods-content {
+  padding: 40rpx;
+}
+
+.goods_details {
+  display: inline-block;
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-bottom: 1rpx solid #ededed;
+  box-sizing: border-box;
+  text-align: center;
+  color: #c7c7cb;
+}
